@@ -1,0 +1,25 @@
+body{
+    font-size: 50px;
+}
+
+#div-1{
+    background-color: brown;
+}
+
+#span-1{
+    background-color: cadetblue;
+}
+
+#button-1{
+    background-color: coral;
+    font-size: 30px;
+}
+
+#a-1{
+    background-color: darkblue;
+    color: black;
+}
+
+#div-2{
+    background-color: blueviolet;
+}
