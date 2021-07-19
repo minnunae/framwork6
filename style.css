@@ -1,34 +1,47 @@
-* {
-    font-size: 60px;
+*{
     margin: 0;
 }
 
-#box1 {
-    background-color: darkred;
-    width: 300px ;
-    padding: 30px;
-    border: 10px solid green;
+.parent-container{
+    border: 5px solid tomato;
+    width: 1000px;
+    min-height: 100px;
 }
 
-#box2{
-    background-color: hotpink;
-    width: 300px ;
-    padding: 30px;
-    border: 10px solid darkred;
-    box-sizing: border-box;
+.parent-container div{
+    padding: 20px 0;
+    margin: 10px 0;
+    color: turquoise;
+    background-color: teal;
 }
 
-#parent {
-    width: 300px;
-    border: 10px solid turquoise;
+html{
+    /*font-size: 16px;*/
 }
 
-#child {
-    width: 100%;
-    border: 10px solid khaki;
-    padding: 5px;
+.px{
+    font-size: 30px;
+    width: 400px;
 }
 
-*,*:before,*:after {
-    box-sizing: border-box;
+.rem{
+    font-size: 2rem;
+    width: 25rem;
+}
+
+.em{
+    font-size: 2em;
+    width: 25em;
+}
+
+.vw{
+    width: 100vw;
+}
+
+.percent{
+    width: 80%;
+}
+
+.vh{
+    width: 20vh;
 }
